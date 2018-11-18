@@ -49,6 +49,7 @@ public class CashBackService {
         CashBackService cashBackService = new CashBackService();
         cashBackService.setRegularPurchase(regularPurchase);
         System.out.println(regularPurchase);
+        System.out.println("dsfdsf");
         return getRegularCashBack();
     }
 }
