@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="CashBackService" />
+        <module name="CashBackService_git" />
       </profile>
     </annotationProcessing>
   </component>
