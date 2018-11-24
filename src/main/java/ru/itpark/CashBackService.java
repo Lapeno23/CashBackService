@@ -61,15 +61,16 @@ public class CashBackService {
         }
     }
 
-    public void calculateCashBack(int regularPurchase, int increasedPurchase, int specialPurchase) {
+    public int calculateCashBack(int regularPurchase, int increasedPurchase, int specialPurchase) {
         this.setRegularPurchase(regularPurchase);
         this.setRegularCashBack();
         this.setIncreasedPurchase(increasedPurchase);
         this.setIncreasedCashBack();
         this.setSpecialPurchase(specialPurchase);
         this.setSpecialCashBack();
-        System.out.println(getRegularCashBack());
-        System.out.println(getIncreasedCashBack());
-        System.out.println((getSpecialCashBack()));
+        return getRegularCashBack();
+        //  System.out.println(getRegularCashBack());
+        //   System.out.println(getIncreasedCashBack());
+        //  System.out.println(getSpecialCashBack());
     }
 }
