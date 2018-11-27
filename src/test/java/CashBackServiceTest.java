@@ -10,6 +10,5 @@ class CashBackServiceTest {
     void calculateCashBack() {
         CashBackService cashBackService = new CashBackService();
 
-
     }
 }
