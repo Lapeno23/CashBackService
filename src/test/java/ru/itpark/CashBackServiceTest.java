@@ -15,8 +15,6 @@ class CashBackServiceTest {
         assertEquals(100, cashBackService.calculateCashBack(10_000,0,0));
         assertEquals(1500, cashBackService.calculateCashBack(0,0,5_000));
         assertEquals(3000, cashBackService.calculateCashBack(0,200_000,0));
-
-
-
+        assertEquals(0, cashBackService.calculateCashBack(0,0,0));
     }
 }

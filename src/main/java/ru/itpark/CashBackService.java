@@ -40,25 +40,22 @@ public class CashBackService {
     public int getRegularCashBack() {
         if (regularCashBack >= maxCashBack) {
             return maxCashBack;
-        } else {
-            return regularCashBack;
         }
+            return regularCashBack;
     }
 
     public int getIncreasedCashBack() {
         if (increasedCashBack >= maxCashBack) {
             return maxCashBack;
-        } else {
-            return increasedCashBack;
         }
+            return increasedCashBack;
     }
 
     public int getSpecialCashBack() {
         if (specialCashBack >= maxCashBack) {
             return maxCashBack;
-        } else {
-            return specialCashBack;
         }
+            return specialCashBack;
     }
 
     public int calculateCashBack(int regularPurchase, int increasedPurchase, int specialPurchase) {
