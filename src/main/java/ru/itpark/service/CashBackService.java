@@ -1,4 +1,4 @@
-package ru.itpark;
+package ru.itpark.service;
 
 public class CashBackService {
     private int regularPercent = 1;
